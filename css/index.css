@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{box-sizing: border-box; margin: 0; padding: 0;}
+ backToTop {position: absolute;
+width: 71px;
+height: 71px;
+left: 1029px;
+top: 479px;}
+header {display: flex;
+justify-content: center;
+align-items: center;
+padding: 0;}
+.inline-block {display: inline-block;
+    vertical-align: top ;list-style: none;
+background-color: rgba(255, 255, 255, 0.8);
+border-radius: 20px;}
+nav{font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    color: #3E7269;
+    list-style: none;}
+li{display: inline-block;
+padding: 0px 20px;}
+.logo{ cursor: pointer;
+     width: auto;
+        display: inline-flex;
+        align-items: center;}
+/*hero image section*/
+#heroImg{display: flex;
+    align-items: center;
+    justify-content: center;}
+.intro {padding-left: 8px;}
+.image {padding-right: 8px;}
+.upper{font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 31px;
+    color: #3E7269;
+    background-color: white;
+    padding: 10px 0px;}
+.lower {width: 379px;
+    text-align: justify;font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 10px 0px;}
+/*"My Resume PDF" button*/
+button{width: 162px;
+    height: 46px;
+    left: 554px;
+    top: 414px;
+    border: 1px solid #DF9C93;
+    background-color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;    
+    color: #3E7269;
+    margin: 10px 0px;} 
+/*footer*/       
+.copyright{font-family: Merriweather;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    padding: 5px 0px;}
+    .mediaAccounts {padding: 5px 0px;}
+.footerContact{display: flex;
+justify-content: center;
+padding: 5px 0px;}
